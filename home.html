@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 400px;
+    height:40px;
+  }
+  button:hover{
+    background-color: #c75454;
+    color:aliceblue;
+  }
+  .content>#videos{
+    display: grid;
+    grid-template-columns: repeat(3,450px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding:10px;
+
+  }
+  .content div iframe {
+   width: 100%;
+   height:350px;
+   border-radius: 10px;
+
+  }
+  .content>#videoPlayer{
+    text-align: center;
+  } 
+  h2{
+    text-align: center;
+   font-weight: bolder;
+   font-size: xx-large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Search Content</h1>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="startSearch()">search</button>
+    </div>
+    
+  </div>
+
+  <div class="content">
+<div id="videoPlayer" ></div>
+<h2>Account Creation</h2>
+<div id="videos">
+ 
+  <iframe src="https://www.youtube.com/embed/vZZwFZ4EsU4?si=bnmDHLGOBVKIsnf_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  ></iframe>
+   <iframe  src="https://www.youtube.com/embed/6JWlH8GuUaY?si=gvo3_fFBYXWLlR7z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/dzArnck-X94?si=QjLjpEgoWgLfUijp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/DexbaGXRbP4?si=tVAa-sMs9jutL-Ef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe  src="https://www.youtube.com/embed/bjjxORenkKk?si=r3RpsFOXzfcDfE14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+<h2>Banking</h2>
+<div id="videos">
+ 
+  <iframe src="https://www.youtube.com/embed/uGs6CSlkc8Q?si=O76fE0S3SFtmchCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  ></iframe>
+   <iframe  src="https://www.youtube.com/embed/FIOIIRNnZ88?si=wVbgI6P8rchIajvP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/wbfnMREZIB8?si=VAAjSsgSsq3wwZEX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/-E8IQ8jekkQ?si=L8AGbwaedvE31d3Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe  src="https://www.youtube.com/embed/Iz4sPEF3phc?si=Dxb1ZG1LIIDNwcNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+<h2>Computer Technology</h2>
+<div id="videos">
+ 
+  <iframe src="https://www.youtube.com/embed/S-i3msq8HoM?si=rf3MgpIKbXCRy1ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  ></iframe>
+   <iframe  src="https://www.youtube.com/embed/y2kg3MOk1sY?si=MDpakWhr2tHYhxVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/827bAFBySN0?si=yEDtiHbgxFIwfJ3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/dzArnck-X94?si=QjLjpEgoWgLfUijp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe  src="https://www.youtube.com/embed/9KXVeEQF00I?si=kZY3ZSP6wQTNTvj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+
+  <script >const videos = [
+    { title: 'how to apply jobs', url: "https://www.youtube.com/embed/SHI_nYVmkk4?si=flyLIsaLAAWffq-b" },
+    { title: 'how to apply internships ', url: 'https://www.youtube.com/embed/25VPHluLiQQ?si=Mf2isr7ENrGPbD9O' },
+    {title:'how to create a linkedin account', url: "https://www.youtube.com/embed/bjjxORenkKk?si=r3RpsFOXzfcDfE14"},
+    {title:'how to apply EAMCET',url : "https://www.youtube.com/embed/l0A20uSIjug?si=bObzvoIxfwhqN1Ux"},
+    {title:'how to apply for GATE exam',url : "https://www.youtube.com/embed/827bAFBySN0?si=yEDtiHbgxFIwfJ3v"},
+    {title:'how to create gethub profile',url : "https://www.youtube.com/embed/dzArnck-X94?si=QjLjpEgoWgLfUijp"},
+    {title:'how to apply your vote',url : "https://www.youtube.com/embed/9KXVeEQF00I?si=kZY3ZSP6wQTNTvj"},
+    {title:'Create a google account',url:"https://www.youtube.com/embed/vZZwFZ4EsU4?si=bnmDHLGOBVKIsnf_" },
+    {title:'How to use chat GPT',url:'https://www.youtube.com/embed/ey1kHYVu19c?si=vSYUbDa0oJ2DHeZu'},
+    {title:'Internet banking account',url:'https://www.youtube.com/embed/JUV3kQ_jZkQ?si=oos9PdilF--aHnTp'},
+    {title:'How to shop online',url:'https://www.youtube.com/embed/vQq0n4g4CPs?si=0RmMwAwkRCrQD5J8'},
+    {title:'Purchase shares in a stock market',url:'https://www.youtube.com/embed/CQ6JgUpYrX0?si=iLylU08nUT_u0k4b'},
+    {title:'Opening a bank account',url:'https://www.youtube.com/embed/uGs6CSlkc8Q?si=O76fE0S3SFtmchCP'},
+    {title:'How to operate computer',url:'https://www.youtube.com/embed/y2kg3MOk1sY?si=MDpakWhr2tHYhxVM'},
+    {title:'How to send money one bank to another',url:'https://www.youtube.com/embed/FIOIIRNnZ88?si=wVbgI6P8rchIajvP'},
+    {title:'How to use phonepay',url:'https://www.youtube.com/embed/wbfnMREZIB8?si=VAAjSsgSsq3wwZEX'},
+    {title:'How to use gpay',url:'https://www.youtube.com/embed/-E8IQ8jekkQ?si=L8AGbwaedvE31d3Z'},
+    {title:"Mobile phone as tv remote",url:'https://www.youtube.com/embed/IQqpel_PcFA?si=tA5_q1chJ6TSmJdr'},
+    {title:'How to insert sim',url:'https://www.youtube.com/embed/2sMYPPtyPL8?si=UlVWzJDZvnSZ8D1M'},
+    {title:'how to use whatsapp',url:'https://www.youtube.com/embed/y3EdIiJeTXk?si=RBnPHATju9LjCkH4'},
+    
+    // Add more videos as needed
+  ];
+  
+  function startSearch() {
+    const searchInput = document.getElementById('searchInput');
+    const query = searchInput.value.toLowerCase();
+    
+    const matchingVideos = videos.filter(video => video.title.toLowerCase().includes(query));
+    
+    if (matchingVideos.length > 0) {
+      const selectedVideo = matchingVideos[0]; // Assuming we take the first matching video
+      displayVideo(selectedVideo);
+    } else {
+      alert('No matching videos found.');
+    }
+  }
+  
+  function displayVideo(video) {
+    const videoPlayer = document.getElementById('videoPlayer');
+    videoPlayer.innerHTML = `
+      <h2>Searched result</h2>
+      <iframe width="560" height="315" src="${video.url}" frameborder="0" allowfullscreen></iframe>
+    `;
+  }</script>
+</body>
+</html>
